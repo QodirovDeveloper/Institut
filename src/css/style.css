@@ -819,3 +819,21 @@ footer ul
 	color: #E85868;
 	transform: scale(150%);
 }
+.dark
+{
+	padding: 15px 29px;
+	background: #26196c;
+	border: 1px solid #26196c;
+	color: #fff;
+}
+.light
+{
+	padding: 15px 25px;
+	background: #26196c;
+	border: 1px solid #26196c;
+	color: #FFF;
+}
+.dark-mode
+{
+	background: #a29f9f;
+}
