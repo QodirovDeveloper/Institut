@@ -726,3 +726,96 @@ footer ul
 		padding: 17px 100px 17px 17px !important;
 	}
 }
+.button {
+	font-weight: 400;
+	font-size: 16.47px;
+	line-height: 17.07px;
+	color: #fff;
+	padding: 14px 25px;
+	border: 1px solid var(--primary);
+	background: var(--primary);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.button:hover {
+	background: transparent;
+	color: var(--primary);
+	transform: scale(110%);
+}
+.button:active {
+	background: var(--primary);
+	opacity: 0.7;
+	color: #fff;
+	transform: scale(100%);
+}
+/* !!! */
+.button1 {
+	font-weight: 400;
+	font-size: 16.47px;
+	line-height: 17.07px;
+	color: #fff;
+	padding: 14px 25px;
+	border: 1px solid #fff;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.button1:hover {
+	color: #fff !important;
+	background: var(--primary) !important;
+	transform: scale(110%);
+}
+.button1:active {
+	background: var(--primary);
+	opacity: 0.7;
+	color: #fff;
+	transform: scale(100%);
+}
+/* !!! */
+.button2 {
+	font-weight: 400;
+	font-size: 16.47px;
+	line-height: 17.07px;
+	/* color: #fff; */
+	padding: 14px 25px;
+	border: 1px solid #fff;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.button2:hover {
+	transform: scale(110%);
+	color: #fff !important;
+	background: var(--primary) !important;
+}
+.button2:active {
+	transform: scale(100%);
+	background: var(--primary);
+	opacity: 0.7;
+	color: #fff;
+}
+.footer ul a
+{
+	transition: .3s;
+}
+.footer ul a:hover
+{
+	color: #e5842a;
+}
+.footer i
+{
+	transition: .3s;
+}
+.footer3:hover
+{
+	color: #188FCA;
+	transform: scale(150%);
+}
+.footer2:hover
+{
+	color: #176EFE;
+	transform: scale(150%);
+}
+.footer1:hover
+{
+	color: #E85868;
+	transform: scale(150%);
+}
