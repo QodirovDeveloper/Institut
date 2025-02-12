@@ -837,3 +837,12 @@ footer ul
 {
 	background: #a29f9f;
 }
+.sn-cards__item:hover
+{
+	transform: scale(110%) !important;
+	border-radius: 15px;
+}
+.sn-cards__item
+{
+	transition: .3s;
+}
